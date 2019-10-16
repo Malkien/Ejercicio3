@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         if(nombre.equals("kevin")&&pass.equals("KEVIN")){
             var pantallaTienda = Intent(this, Tienda::class.java)
             startActivity(pantallaTienda)
+        }else{
+            Toast.makeText(this,"Error al introducir la contraseña",Toast.LENGTH_LONG).show()
         }
 
     }

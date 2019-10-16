@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#293768"
-    android:rowCount="3"
-    android:columnCount="2"
-    tools:context=".Tienda">
+    android:orientation="horizontal">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnSpan="1"
-        android:layout_rowSpan="1"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1">
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/contenedor1"
             android:layout_width="match_parent"
+            app:layout_constraintHorizontal_weight="1"
             android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -40,19 +35,18 @@
                 <TextView
                     android:id="@+id/texto1"
                     android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:text="TextView"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/boton1"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/boton1" />
+                    app:layout_constraintBottom_toTopOf="@+id/boton1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <Button
                     android:id="@+id/boton1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button"
                     android:onClick="clickProducto"
+                    android:text="Button"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -62,12 +56,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnSpan="1"
-        android:layout_rowSpan="1"
-        android:layout_columnWeight="@android:integer/config_longAnimTime"
-        android:layout_rowWeight="@android:integer/config_longAnimTime">
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/contenedor2"
@@ -92,16 +83,15 @@
                 <TextView
                     android:id="@+id/texto2"
                     android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:text="TextView"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/boton2"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/boton2" />
+                    app:layout_constraintBottom_toTopOf="@+id/boton2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <Button
                     android:id="@+id/boton2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Button"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -113,12 +103,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnSpan="1"
-        android:layout_rowSpan="1"
-        android:layout_columnWeight="@android:integer/config_longAnimTime"
-        android:layout_rowWeight="@android:integer/config_longAnimTime">
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/contenedor3"
@@ -143,16 +130,15 @@
                 <TextView
                     android:id="@+id/texto3"
                     android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:text="TextView"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/boton3"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/boton3" />
+                    app:layout_constraintBottom_toTopOf="@+id/boton3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <Button
                     android:id="@+id/boton3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Button"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -164,12 +150,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnSpan="1"
-        android:layout_rowSpan="1"
-        android:layout_columnWeight="@android:integer/config_longAnimTime"
-        android:layout_rowWeight="@android:integer/config_longAnimTime">
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/contenedor4"
@@ -194,16 +177,15 @@
                 <TextView
                     android:id="@+id/texto4"
                     android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:text="TextView"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/boton4"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/boton4" />
+                    app:layout_constraintBottom_toTopOf="@+id/boton4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <Button
                     android:id="@+id/boton4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Button"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -215,12 +197,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnSpan="1"
-        android:layout_rowSpan="1"
-        android:layout_columnWeight="@android:integer/config_longAnimTime"
-        android:layout_rowWeight="@android:integer/config_longAnimTime">
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/contenedor5"
@@ -245,16 +224,15 @@
                 <TextView
                     android:id="@+id/texto5"
                     android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:text="TextView"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/boton5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/boton5" />
+                    app:layout_constraintBottom_toTopOf="@+id/boton5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <Button
                     android:id="@+id/boton5"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Button"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -267,12 +245,9 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnSpan="1"
-        android:layout_rowSpan="1"
-        android:layout_columnWeight="@android:integer/config_longAnimTime"
-        android:layout_rowWeight="@android:integer/config_longAnimTime">
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/contenedor6"
@@ -297,16 +272,15 @@
                 <TextView
                     android:id="@+id/texto6"
                     android:layout_width="0dp"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:text="TextView"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/boton6"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/boton6" />
+                    app:layout_constraintBottom_toTopOf="@+id/boton6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <Button
                     android:id="@+id/boton6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Button"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -316,4 +290,7 @@
         </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</GridLayout>
+</LinearLayout>
+
+
+
