@@ -37,7 +37,8 @@
         android:layout_marginLeft="30dp"
         android:fontFamily="@font/playfair_bold"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/nombreOkInicio2"
+
+        app:layout_constraintBottom_toTopOf="@+id/passOkInicio"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nombreOkInicio" />
 
@@ -59,11 +60,12 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:fontFamily="@font/playfair_regular"
         app:layout_constraintBottom_toTopOf="@+id/botonLoguear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passInicio" />
+
 
     <Button
         android:id="@+id/botonLoguear"
@@ -75,6 +77,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nombreOkInicio2" />
+        app:layout_constraintTop_toBottomOf="@+id/passOkInicio" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

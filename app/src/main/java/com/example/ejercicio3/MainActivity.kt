@@ -1,5 +1,6 @@
 package com.example.ejercicio3
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -13,10 +14,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun clickIncioSesion(view: View) {
-        var nombre:String=findViewById<EditText>(R.id.nombreOkInicio).text as String
-        var pass:String=findViewById<EditText>(R.id.passOkInicio).text as String
+        var nombre:String=findViewById<EditText>(R.id.nombreOkInicio).text.toString() as String
+        var pass:String=findViewById<EditText>(R.id.passOkInicio).text.toString() as String
         if(nombre.equals("kevin")&&pass.equals("KEVIN")){
-
+            var pantallaTienda = Intent(this, Tienda::class.java)
+            startActivity(pantallaTienda)
         }
 
     }
