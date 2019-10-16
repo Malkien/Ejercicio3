@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="800"
+        android:font="@font/playfair_regular" />
+    <font
+        android:fontWeight="400"
+        android:font="@font/playfair_bold" />
+    <font
+    android:fontWeight="200"
+    android:font="@font/playfair_sc_regular" />
+    <font
+        android:fontWeight="100"
+        android:font="@font/playfair_sc_bold" />
+</font-family>

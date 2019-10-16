@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio3</string>
+    <string name="nombre_inicio">Nombre de Usuario:</string>
+    <string name="pass_inicio">Contraseña:</string>
+    <string name="loguear_inicio">Iniciar Sesión</string>
+</resources>
