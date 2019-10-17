@@ -14,307 +14,247 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent" >
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contenedor1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/contenedor1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_weight="1"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <ImageView
+                        android:id="@+id/imagen1"
+                        android:layout_width="wrap_content"
+                        android:maxWidth="100dp"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toTopOf="@+id/boton1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/dante" />
+
+                    <TextView
+                        android:id="@+id/texto1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        app:layout_constraintBottom_toTopOf="@+id/boton1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <Button
+                        android:id="@+id/boton1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:onClick="clickProducto"
+                        android:text="Button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <ImageView
-                            android:id="@+id/imagen1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="0dp"
-                            app:layout_constraintBottom_toTopOf="@+id/boton1"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@mipmap/ic_launcher_round" />
+            </androidx.cardview.widget.CardView>
 
-                        <TextView
-                            android:id="@+id/texto1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="TextView"
-                            app:layout_constraintBottom_toTopOf="@+id/boton1"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-
-                        <Button
-                            android:id="@+id/boton1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:onClick="clickProducto"
-                            android:text="Button"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contenedor4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/contenedor4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <ImageView
+                        android:id="@+id/imagen4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toTopOf="@+id/boton4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/vergil" />
+
+                    <TextView
+                        android:id="@+id/texto4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        app:layout_constraintBottom_toTopOf="@+id/boton4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <Button
+                        android:id="@+id/boton4"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <ImageView
-                            android:id="@+id/imagen4"
-                            android:layout_width="match_parent"
-                            android:layout_height="0dp"
-                            app:layout_constraintBottom_toTopOf="@+id/boton4"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@mipmap/ic_launcher" />
+            </androidx.cardview.widget.CardView>
 
-                        <TextView
-                            android:id="@+id/texto4"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="TextView"
-                            app:layout_constraintBottom_toTopOf="@+id/boton4"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-
-                        <Button
-                            android:id="@+id/boton4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Button"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contenedor3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/contenedor3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <ImageView
+                        android:id="@+id/imagen3"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toTopOf="@+id/boton3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/nero" />
 
-                        <ImageView
-                            android:id="@+id/imagen3"
-                            android:layout_width="match_parent"
-                            android:layout_height="0dp"
-                            app:layout_constraintBottom_toTopOf="@+id/boton3"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@mipmap/ic_launcher" />
+                    <TextView
+                        android:id="@+id/texto3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        app:layout_constraintBottom_toTopOf="@+id/boton3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                        <TextView
-                            android:id="@+id/texto3"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="TextView"
-                            app:layout_constraintBottom_toTopOf="@+id/boton3"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
+                    <Button
+                        android:id="@+id/boton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <Button
-                            android:id="@+id/boton3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Button"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contenedor6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/contenedor6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <ImageView
+                        android:id="@+id/imagen6"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toTopOf="@+id/boton6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/lucia" />
 
-                        <ImageView
-                            android:id="@+id/imagen6"
-                            android:layout_width="match_parent"
-                            android:layout_height="0dp"
-                            app:layout_constraintBottom_toTopOf="@+id/boton6"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@mipmap/ic_launcher" />
+                    <TextView
+                        android:id="@+id/texto6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        app:layout_constraintBottom_toTopOf="@+id/boton6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                        <TextView
-                            android:id="@+id/texto6"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="TextView"
-                            app:layout_constraintBottom_toTopOf="@+id/boton6"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
+                    <Button
+                        android:id="@+id/boton6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <Button
-                            android:id="@+id/boton6"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Button"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contenedor2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/contenedor2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <ImageView
+                        android:id="@+id/imagen2"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toTopOf="@+id/boton2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/trish" />
 
-                        <ImageView
-                            android:id="@+id/imagen2"
-                            android:layout_width="match_parent"
-                            android:layout_height="0dp"
-                            app:layout_constraintBottom_toTopOf="@+id/boton2"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@mipmap/ic_launcher" />
+                    <TextView
+                        android:id="@+id/texto2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        app:layout_constraintBottom_toTopOf="@+id/boton2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                        <TextView
-                            android:id="@+id/texto2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="TextView"
-                            app:layout_constraintBottom_toTopOf="@+id/boton2"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
+                    <Button
+                        android:id="@+id/boton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <Button
-                            android:id="@+id/boton2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Button"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
 
-                </androidx.cardview.widget.CardView>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contenedor5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/contenedor5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <ImageView
+                        android:id="@+id/imagen5"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toTopOf="@+id/boton5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/lady" />
 
-                        <ImageView
-                            android:id="@+id/imagen5"
-                            android:layout_width="match_parent"
-                            android:layout_height="0dp"
-                            app:layout_constraintBottom_toTopOf="@+id/boton5"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.5"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@mipmap/ic_launcher" />
+                    <TextView
+                        android:id="@+id/texto5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        app:layout_constraintBottom_toTopOf="@+id/boton5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
 
-                        <TextView
-                            android:id="@+id/texto5"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:text="TextView"
-                            app:layout_constraintBottom_toTopOf="@+id/boton5"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
+                    <Button
+                        android:id="@+id/boton5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <Button
-                            android:id="@+id/boton5"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Button"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </HorizontalScrollView>
 

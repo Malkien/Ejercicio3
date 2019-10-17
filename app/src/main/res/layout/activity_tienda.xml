@@ -87,7 +87,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/Vergil" />
+                    app:srcCompat="@drawable/vergil" />
 
                 <TextView
                     android:id="@+id/texto2"
@@ -189,7 +189,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/nico" />
+                    app:srcCompat="@drawable/lucia" />
 
                 <TextView
                     android:id="@+id/texto4"
