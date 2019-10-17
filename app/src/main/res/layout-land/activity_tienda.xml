@@ -26,9 +26,9 @@
                     <ImageView
                         android:id="@+id/imagen1"
                         android:layout_width="wrap_content"
-                        android:maxWidth="100dp"
+                        android:adjustViewBounds="true"
                         android:layout_height="0dp"
-                        app:layout_constraintBottom_toTopOf="@+id/boton1"
+                        app:layout_constraintBottom_toTopOf="@+id/texto1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
@@ -46,12 +46,13 @@
 
                     <Button
                         android:id="@+id/boton1"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:onClick="clickProducto"
                         android:text="Button"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -69,7 +70,9 @@
                         android:id="@+id/imagen4"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
-                        app:layout_constraintBottom_toTopOf="@+id/boton4"
+                        android:adjustViewBounds="true"
+
+                        app:layout_constraintBottom_toTopOf="@+id/texto4"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
@@ -87,11 +90,12 @@
 
                     <Button
                         android:id="@+id/boton4"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="Button"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -109,7 +113,8 @@
                         android:id="@+id/imagen3"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        app:layout_constraintBottom_toTopOf="@+id/boton3"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintBottom_toTopOf="@+id/texto3"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
@@ -127,11 +132,12 @@
 
                     <Button
                         android:id="@+id/boton3"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="Button"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -149,7 +155,8 @@
                         android:id="@+id/imagen6"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        app:layout_constraintBottom_toTopOf="@+id/boton6"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintBottom_toTopOf="@+id/texto6"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
@@ -167,11 +174,12 @@
 
                     <Button
                         android:id="@+id/boton6"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="Button"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -189,7 +197,8 @@
                         android:id="@+id/imagen2"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        app:layout_constraintBottom_toTopOf="@+id/boton2"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintBottom_toTopOf="@+id/texto2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
@@ -207,11 +216,12 @@
 
                     <Button
                         android:id="@+id/boton2"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="Button"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -229,7 +239,8 @@
                         android:id="@+id/imagen5"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        app:layout_constraintBottom_toTopOf="@+id/boton5"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintBottom_toTopOf="@+id/texto5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
@@ -247,11 +258,12 @@
 
                     <Button
                         android:id="@+id/boton5"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="Button"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
