@@ -27,7 +27,7 @@ class Tienda : AppCompatActivity() {
     fun escribirImagenes(personaje:Personaje){
         var carta:CardView = findViewById<CardView>(R.id.contenedor1)
         carta.texto1.text="Hola"
-        personaje.
+
     }
     fun clickProducto(view: View) {
 
