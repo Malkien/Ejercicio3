@@ -1,4 +1,4 @@
-package com.example.ejercicio3
+package com.example.ejercicio3.Clases
 
 import java.io.Serializable
 import kotlin.properties.Delegates

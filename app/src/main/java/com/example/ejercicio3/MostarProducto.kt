@@ -1,8 +1,6 @@
 package com.example.ejercicio3
 
 import android.Manifest.permission.*
-import android.annotation.SuppressLint
-import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.media.MediaPlayer
@@ -15,6 +13,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.ejercicio3.Clases.Personaje
 import kotlinx.android.synthetic.main.activity_mostar_producto.*
 import java.io.IOException
 
@@ -32,9 +31,11 @@ class MostarProducto : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mostar_producto)
         val bund = intent.extras
-        var personaje:Personaje=(bund?.getSerializable("persona") as Personaje)
+        var personaje: Personaje =(bund?.getSerializable("persona") as Personaje)
         imagen.setImageURI(Uri.parse(personaje.rutaImagen))
-        descripcion.setText(personaje.nombre)
+        descripcion.setText("Nombre: "+personaje.nombre+"\n" +
+                "Precio: "+personaje.precio)
+
 
     }
 
