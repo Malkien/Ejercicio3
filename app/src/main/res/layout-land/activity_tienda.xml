@@ -26,20 +26,18 @@
                     <ImageView
                         android:id="@+id/imagen1"
                         android:layout_width="wrap_content"
-                        android:adjustViewBounds="true"
                         android:layout_height="0dp"
+                        android:adjustViewBounds="true"
                         app:layout_constraintBottom_toTopOf="@+id/texto1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/dante" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/texto1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
                         app:layout_constraintBottom_toTopOf="@+id/boton1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -48,7 +46,6 @@
                         android:id="@+id/boton1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:onClick="clickProducto"
                         android:text="Button"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -76,14 +73,12 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/vergil" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/texto4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
                         app:layout_constraintBottom_toTopOf="@+id/boton4"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -118,14 +113,12 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/nero" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/texto3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
                         app:layout_constraintBottom_toTopOf="@+id/boton3"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -160,14 +153,12 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/lucia" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/texto6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
                         app:layout_constraintBottom_toTopOf="@+id/boton6"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -202,14 +193,12 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/trish" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/texto2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
                         app:layout_constraintBottom_toTopOf="@+id/boton2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -244,14 +233,12 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/lady" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/texto5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
                         app:layout_constraintBottom_toTopOf="@+id/boton5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
