@@ -46,7 +46,7 @@
                         android:id="@+id/boton1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Button"
+                        android:text="@string/boton_comprar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -87,7 +87,7 @@
                         android:id="@+id/boton4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Button"
+                        android:text="@string/boton_comprar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -127,7 +127,7 @@
                         android:id="@+id/boton3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Button"
+                        android:text="@string/boton_comprar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -167,7 +167,7 @@
                         android:id="@+id/boton6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Button"
+                        android:text="@string/boton_comprar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -207,7 +207,7 @@
                         android:id="@+id/boton2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Button"
+                        android:text="@string/boton_comprar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -247,7 +247,7 @@
                         android:id="@+id/boton5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Button"
+                        android:text="@string/boton_comprar"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />

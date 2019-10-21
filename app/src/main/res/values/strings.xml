@@ -3,5 +3,9 @@
     <string name="nombre_inicio">Nombre de Usuario:</string>
     <string name="pass_inicio">Contraseña:</string>
     <string name="loguear_inicio">Iniciar Sesión</string>
-
+    <string name="boton_comprar">Comprar</string>
+    <string name="boton_escuchar">Grabar audio</string>
+    <string name="boton_reproducir">Reproducir audio</string>
+    <string name="boton_informacion">+ información</string>
+    <string name="boton_parar">Parar audio</string>
 </resources>
