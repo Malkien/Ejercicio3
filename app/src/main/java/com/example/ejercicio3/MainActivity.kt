@@ -31,12 +31,14 @@ class MainActivity : AppCompatActivity() {
             val permisos = arrayOf(CALL_PHONE, WRITE_EXTERNAL_STORAGE, RECORD_AUDIO)
             ActivityCompat.requestPermissions(this, permisos, 0)
         }
+
+
     }
 
     fun clickIncioSesion(view: View) {
         var nombre:String=findViewById<EditText>(R.id.nombreOkInicio).text.toString() as String
         var pass:String=findViewById<EditText>(R.id.passOkInicio).text.toString() as String
-        if(nombre.equals("kevin")&&pass.equals("KEVIN")){
+        if(nombre.equals("")&&pass.equals("")){
             var pantallaTienda = Intent(this, Tienda::class.java)
             startActivity(pantallaTienda)
         }else{

@@ -21,7 +21,9 @@ class MostarProducto : AppCompatActivity() {
     companion object {
         private const val PERMISO_LLAMADAS=1000;
         private  const val PERMISO_GRABAR=1001;
+        
     }
+
     private var output: String? = null
     private var mediaRecorder: MediaRecorder? = null
     private var state: Boolean = false
@@ -50,10 +52,8 @@ class MostarProducto : AppCompatActivity() {
                 )==PackageManager.PERMISSION_GRANTED)
         {
             try{
-                println("He llegado")
                 output = getExternalFilesDir(Environment.DIRECTORY_MUSIC)?.absolutePath+ "/recording.mp3"
                 mediaRecorder = MediaRecorder()
-                println("Aqui llega: "+output)
                 mediaRecorder?.setAudioSource(MediaRecorder.AudioSource.MIC)
                 mediaRecorder?.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
                 mediaRecorder?.setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
